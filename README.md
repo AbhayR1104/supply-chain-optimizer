@@ -16,17 +16,17 @@ Interactive Web Interface: A user-friendly dashboard built with Dash and Plotly 
 Robust and Efficient: The application is structured to run efficiently by using a consistent, pre-sampled set of orders for fair comparisons.
 
 Tech Stack
-* **Backend & Core Logic: Python
+* Backend & Core Logic: Python
 
-* **Optimization Solver: Google OR-Tools
+* Optimization Solver: Google OR-Tools
 
-* **Data Manipulation: Pandas, NumPy
+* Data Manipulation: Pandas, NumPy
 
-* **Web Dashboard: Dash
+* Web Dashboard: Dash
 
-* **Interactive Visualizations: Plotly
+* Interactive Visualizations: Plotly
 
-* **Production Web Server: Gunicorn
+* Production Web Server: Gunicorn
 
 Local Setup and Usage
 To run this application on your local machine, follow these steps:
