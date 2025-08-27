@@ -16,28 +16,17 @@ Interactive Web Interface: A user-friendly dashboard built with Dash and Plotly 
 Robust and Efficient: The application is structured to run efficiently by using a consistent, pre-sampled set of orders for fair comparisons.
 
 Tech Stack
-Backend & Core Logic: Python
+* **Backend & Core Logic: Python
 
-Optimization Solver: Google OR-Tools
+* **Optimization Solver: Google OR-Tools
 
-Data Manipulation: Pandas, NumPy
+* **Data Manipulation: Pandas, NumPy
 
-Web Dashboard: Dash
+* **Web Dashboard: Dash
 
-Interactive Visualizations: Plotly
+* **Interactive Visualizations: Plotly
 
-Production Web Server: Gunicorn
-
-Project Structure
-SupplyChainOptimizer/
-│
-├── .venv/                      # Virtual environment files
-├── app.py                      # The main Dash web application
-├── optimizer_prototype.ipynb   # Jupyter Notebook for development and testing
-├── requirements.txt            # List of Python packages for deployment
-├── Procfile                    # Command for the deployment server (Render)
-├── yellow_tripdata_2024-01.parquet # Raw NYC taxi data (required for the app)
-└── taxi+_zone_lookup.csv           # Lookup table for taxi zones (required for the app)
+* **Production Web Server: Gunicorn
 
 Local Setup and Usage
 To run this application on your local machine, follow these steps:
