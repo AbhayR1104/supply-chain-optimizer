@@ -22,7 +22,7 @@ def calculate_distance_in_miles(lat1, lon1, lat2, lon2):
 # --------------------
 # 1. DATA PREPARATION FUNCTION
 # --------------------
-def prepare_data(num_orders=100):
+def prepare_data(num_orders=50):
     try:
         df_all_orders = pd.read_csv('orders_for_app.csv')
     except FileNotFoundError:
