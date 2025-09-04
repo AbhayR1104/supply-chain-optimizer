@@ -67,7 +67,7 @@ def solve_with_or_tools(data, all_locations_df, orders_df, warehouses_df):
     search_parameters = pywrapcp.DefaultRoutingSearchParameters()
     search_parameters.first_solution_strategy = (routing_enums_pb2.FirstSolutionStrategy.PATH_CHEAPEST_ARC)
     search_parameters.local_search_metaheuristic = (routing_enums_pb2.LocalSearchMetaheuristic.GUIDED_LOCAL_SEARCH)
-    search_parameters.time_limit.FromSeconds(90)
+    search_parameters.time_limit.FromSeconds(25)
     
     solution = routing.SolveWithParameters(search_parameters)
     
